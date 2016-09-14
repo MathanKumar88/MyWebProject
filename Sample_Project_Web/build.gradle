@@ -1,0 +1,14 @@
+apply plugin: 'war'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   providedCompile 'javax.servlet:servlet-api:2.5'
+   testCompile 'junit:junit:4.11'
+   compile 'log4j:log4j:1.2.17'
+   compile 'com.sun.jersey:jersey-bundle:1.17.1'
+   compile 'com.sun.faces:jsf-api:2.1.19'
+   compile 'com.sun.faces:jsf-impl:2.1.19'
+}
